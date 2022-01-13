@@ -1,0 +1,353 @@
+/* Universal styles  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap');
+
+*{
+    font-family: 'Mulish', sans-serif;
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+/* Header Part Here  */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+}
+.logo{
+    
+    display: flex;
+    margin: 0 30px;
+    align-items:center; 
+}
+.logo h4{
+    background-color: #458FF6;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: block;
+    font-size: 40px;
+    margin-right: 23px;
+    color: white;
+}
+.navItems li{
+    display: inline-block;
+    padding: 20px 30px;
+
+}
+.navItems li a{
+    color:black;
+    
+}
+
+
+
+/* Health Care Part  */
+.healthCare{
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.healthDetail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.sectionTitle{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.healthInfo{
+    width: 45%;
+}
+.healthInfo p{
+    color:#7D7987;
+    font: 21px;
+    margin-bottom: 45px;
+}
+.healthBanner{
+    width: 50%;
+}
+.healthBanner img{
+    width:80%;
+    
+}
+.btn{
+    display: inline-block;
+    background-color: #458FF6;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    color:white;
+}
+
+
+
+
+/* Service Part Here  */
+
+.serviceTitle{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.serviceTitle h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.serviceTitle p{
+    color:#7D7987;
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.serviceTitle h1 span{
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+
+.serviceDetail{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 35px;
+}
+.box-wrapper{
+    background-color: rgba(72, 145, 246, 0.068);
+}
+.serviceInfo{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    padding: 50px 30px;
+}
+.serviceInfo img{
+    width:25%;
+    margin-bottom: 20px;
+}
+.serviceInfo h2{
+    font-size: 24px;
+}
+.serviceLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border: 2px solid #4890F6;
+    border-radius: 20px;
+    color:#4890F6;
+    width:10%;
+    margin: 0 auto;
+    margin-top:50px;
+}
+
+
+
+
+/* Providers Part Here  */
+.providers{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.providersInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.providersBanner{
+    width:50%
+}
+.providersBanner img{
+    width:80%;
+}
+.providerDetail{
+    width: 35%;
+}
+.providerTitle h1{
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.providerTitle p{
+    color:#7D7987;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.providerLinks{
+    padding: 10px 30px;
+    border: 2px solid #4890F6;
+    border-radius: 20px;
+    color:#4890F6;
+}
+
+
+
+/* Apps Part Here  */
+.mobileApps{
+    margin-bottom: 100px;
+}
+.appsInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.appsDetail{
+    width: 30%;
+}
+.appsDetail h1{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.appsDetail p{
+    color:#7D7987;
+    margin-bottom: 30px;
+}
+.appsBanner{
+    width:55%
+}
+.appsBanner img{
+    width:80%;
+}
+.appsLink{
+    padding: 10px 30px;
+    border: 2px solid #4890F6;
+    border-radius: 20px;
+    color:#4890F6;
+}
+
+
+/* Customer Part Here  */
+.customer{
+    border: 1px solid gray;
+    background-image: linear-gradient(#67C3F3,#5A98F2);
+    color:white;
+    border-radius: 20px;
+}
+.customerTitle{
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.customerReview{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.customerName h4{
+    margin-bottom: 10px;
+}
+.customerDetail{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.customerWords{
+    width:50%;
+    
+}
+.awesomeSlide{
+    display: block;
+    text-align: center;
+    padding: 20px 50px;
+    margin: auto;
+    margin-top: 50px;
+}
+.awesomeSlide i{
+    padding: 20px;
+}
+.emptycircle{
+    color:#CEE1FB;
+}
+.fa-arrow-right{
+    color: #CEE1FB;
+}
+.fa-arrow-left, .filled{
+    color:#5B9BF3;
+
+}
+
+
+
+/* Article Part Here  */
+.articleTitle{
+    text-align: center;
+    margin: 30px 0;
+    padding: 40px 0;
+    font-size: 36px;
+    margin-bottom: 60px;
+}
+.articleInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 30px;
+    
+}
+.articleDetail{
+    margin-right: 20px;
+}
+.articleDetail h3{
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.articleDetail p{
+    color:#7D7987;
+    margin-bottom: 30px;
+}
+
+.articleDetail img{
+    width: 70%;
+    margin-bottom: 20px;
+}
+.articleLinks a {
+   color: #4089ED;
+}
+.viewAllLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    border: 2px solid #4890F6;
+    border-radius: 20px;
+    color:#4890F6;
+    width:10%;
+    margin: 0 auto;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+
+
+
+/* Footer Part Here  */
+.fooDetail{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 100px;
+    /* margin-top: 100px; */
+}
+.fooHead{
+    background-image: linear-gradient(#67C3F3,#5A98F2);
+    padding: 100px 0;
+    color:white;
+}
