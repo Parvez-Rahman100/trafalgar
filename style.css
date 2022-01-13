@@ -351,3 +351,18 @@ header{
     padding: 100px 0;
     color:white;
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:688px){
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
