@@ -362,11 +362,23 @@ header{
 
 @media screen and (max-width:688px){
     header{
-        display: flex;
+        width: 100%;
         flex-direction: column;
     }
     .serviceDetail{
         display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .fooDetail{
+        width: 100%;
         grid-template-columns: repeat(2,1fr);
+        grid-gap: 20px;
+
+    }
+    .region{
+        margin-left:50px ;
+    }
+    .appsBanner img{
+        width:100%;
     }
 }
